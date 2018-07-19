@@ -1,0 +1,21 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  }
+}
